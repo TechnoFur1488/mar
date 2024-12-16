@@ -1,0 +1,61 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.SwiperImg {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 617px;
+    height: 544px;
+    background-color: #DA6264;
+    border-radius: 58px;
+    margin-top: 179px;
+}
+
+.label {
+    width: 76px;
+    height: 73px;
+    display: block;
+    position: relative;
+}
+
+.label input {
+    margin-top: 20px;
+}
+
+input[type="checkbox"]+span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../../../public/images/Group\ 1171274898.svg") no-repeat;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked+span {
+    background: url("../../../public/images/Group\ 1171274898\ \(1\).svg");
+}
+
+.backColorF {
+    background-color: #BFDCDB;
+}
+
+.backColorS {
+    background-color: #848EC7;
+}
+
+.Div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 426px;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 32px;
+}

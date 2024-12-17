@@ -1,0 +1,12 @@
+nav {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+nav a:not(:last-child) {
+    margin-right: 30px;
+}
+
+nav a {
+    color: white;
+}

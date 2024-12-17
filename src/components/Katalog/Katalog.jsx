@@ -52,24 +52,18 @@ export const Katalog = () => {
             <section className={s.divLine}></section>
             <section className={s.botColor}>
                 <div className={s.container}>
-                    <div className={s.flex}>
-                        {products.map(product => {
-                            return <Link to={`/Katalog/${product.id}`} className={s.priLink} key={product.id}>
-                                <div>
-                                    <label className={s.label}><input type="checkbox" /><span></span></label>
-                                </div>
-                                <div>
-                                    <img src={product.img} alt="" />
-                                </div>
-                                <div>
-                                    <span>{product.name}</span>
-                                    <span>{product.price}</span>
-                                </div>
-                            </Link>
-                        })}
-                    </div>
+                    {products.map(product => {
+                        return <Link to={`/Katalog/${product.id}`} className={s.priLink} key={product.id}>
+                            <div className={s.DivImg}>
+                                <img src={product.img} alt="" />
+                            </div>
+                            <div className={s.spanText}>
+                                <span className={s.fSpan}>{product.name}</span><br />
+                                <span>{product.price}</span>
+                            </div>
+                        </Link>
+                    })}
                 </div>
-
             </section>
         </>
     )

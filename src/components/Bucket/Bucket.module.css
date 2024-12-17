@@ -1,0 +1,130 @@
+body {
+    background-color: #3F3F3F;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.btnDel {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.divTov {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 557px;
+    height: 479px;
+    background-color: white;
+    border-radius: 51px;
+}
+
+.divBtnDel {
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
+}
+
+.divText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 336px;
+}
+
+.spanPrice {
+    display: flex;
+    justify-content: flex-start;
+    width: 336px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.spanName {
+    width: 148px;
+    font-size: 24px;
+}
+
+.divText {
+    color: #000000;
+    font-size: 16px;
+}
+
+.sContainer {
+    display: flex;
+    justify-content: center ;
+    margin-bottom: 30px;
+}
+
+.btnCount {
+    width: 45px;
+    height: 42px;
+    font-size: 30px;
+    background-color: #B1B1B1;
+    border-radius: 72px;
+    border: none;
+    cursor: pointer;
+}
+
+.countSpan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 68px;
+    height: 58px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #9B99F5;
+    border-radius: 73px;
+    text-align: center;
+}
+
+.divPMBtn {
+    display: flex;
+    align-items: center;
+}
+
+.container h1 {
+    color: white;
+}
+
+.totalSpan {
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+}
+
+.flexDivTotal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Mon {
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+}
+
+.Tov {
+    font-size: 24px;
+    color: white;
+}
+
+.btnBuy {
+    margin-top: 63px;
+    margin-bottom: 173px;
+    width: 363px;
+    height: 99px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    background: linear-gradient(to right, #777777, #FFFFFF);
+    cursor: pointer;
+}

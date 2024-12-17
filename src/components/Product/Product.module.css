@@ -1,0 +1,207 @@
+.fSection {
+    background-color: #FFECE7;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.colorDiv {
+    padding-top: 40px;
+    width: 224px;
+    font-size: 26px;
+}
+
+
+.colorDiv h2 {
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.colorDiv span {
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+}
+
+.divProductColor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 111px 0 52px;
+    padding-top: 91px;
+    width: 494px;
+    height: 456px;
+    border-radius: 47px;
+    background-color: white;
+}
+
+.priceDiv {
+    width: 328px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.divPMBtn {
+    display: flex;
+    align-items: center;
+}
+
+.priceDiv span {
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.btnCount {
+    width: 45px;
+    height: 42px;
+    font-size: 30px;
+    background-color: #B1B1B1;
+    border-radius: 72px;
+    border: none;
+    cursor: pointer;
+}
+
+.countSpan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 68px;
+    height: 58px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #9B99F5;
+    border-radius: 73px;
+    text-align: center;
+}
+
+.flexText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 75px;
+    width: 504px;
+}
+
+.flexText p {
+    font-size: 20px;
+}
+
+.flexText h3 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.sSection {
+    color: white;
+    background-color: #3F3F3F;
+}
+
+.constinerS {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.textNote h3 {
+    margin-top: 0;
+    padding-top: 46px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.textNote ul {
+    width: 465px;
+}
+
+.matImg {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 272px;
+    height: 95px;
+    color: black;
+    background-color: white;
+    border-radius: 31px;
+}
+
+.acText {
+    font-weight: bold;
+}
+
+.spanText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.colorBtn {
+    width: 85px;
+    height: 81px;
+    border-radius: 21px;
+    border: none;
+    background-color: #E9E2CD;
+    cursor: pointer;
+}
+
+.colorBtnS {
+    width: 85px;
+    height: 81px;
+    border-radius: 21px;
+    border: none;
+    background-color: #DFDFDD;
+    cursor: pointer;
+}
+
+.colorBtnT {
+    width: 85px;
+    height: 81px;
+    border-radius: 21px;
+    border: none;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+
+.btnBuy {
+    margin-top: 63px;
+    margin-bottom: 173px;
+    width: 363px;
+    height: 99px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    background: linear-gradient(to right, #777777, #FFFFFF);
+    cursor: pointer;
+}
+
+.flexDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textBtnColor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 61px;
+    width: 600px;
+}
+
+.mainDivBtn {
+    display: flex;
+    justify-content: space-between;
+    width: 271px;
+}
+
+.btnSpan span {
+    font-size: 22px;
+    font-weight: 600;
+}
